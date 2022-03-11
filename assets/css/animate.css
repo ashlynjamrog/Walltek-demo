@@ -24,10 +24,10 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	-webkit-backface-visibility: hidden;
 }
 .animated {
-	-webkit-animation-duration: 1.5s;
-	   -moz-animation-duration: 1.5s;
-	     -o-animation-duration: 1.5s;
-	        animation-duration: 1.5s;
+	-webkit-animation-duration: 4s;
+	   -moz-animation-duration: 4s;
+	     -o-animation-duration: 4s;
+	        animation-duration: 4s;
 	-webkit-animation-fill-mode: both;
 	   -moz-animation-fill-mode: both;
 	     -o-animation-fill-mode: both;
