@@ -65,7 +65,9 @@
 /* =Common Styles */
 /***********************************************************************************************/
 
-
+.img_caption {
+  text-transform:none;color:#777;margin-top:0;text-align: left;
+}
 
 
 body {
@@ -485,7 +487,7 @@ p {
 }
 
 .home-hero {
-  background: url('/assets/images/Projects/header.jpg');
+  background: url('/assets/images/Projects/header1.jpg');
   background-size: cover;
 }
 
@@ -663,7 +665,7 @@ ul.caption-slides li {
   border: 1.5px solid #000;
   margin: 30px auto;
   width: 80px!important;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .big-title-sec .big-title {
@@ -1774,7 +1776,7 @@ ul.details-list li:last-child {
 }
 
 .landing-hero {
-  background: url('../images/Projects/header.jpg');
+  background: url('../images/Projects/header1.jpg');
   background-size: cover;
 }
 
