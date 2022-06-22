@@ -146,7 +146,7 @@
     </style>
 	
 </head>
-<body>
+<body onresize="smallGallery()">
 
   <!-- Preload the Whole Page -->
   <div id="preloader">      
@@ -236,7 +236,7 @@
          </div>
        </div> <!-- End row -->
      </div> <!-- end title-section -->
-      <div class="project-content">
+      <div class="project-content" style="display:0s" id="project-content">
         <img src="assets/images/Projects/1.jpg" alt="">
         <div class="container">
           <div class="row">
@@ -637,6 +637,19 @@
   <script src="assets/js/jquery.gmaps.js"></script>
   <script src="assets/js/main.js"></script>
   <script  type = "text/javascript" src="assets/js/slideshow.js"></script>
+  <script>
+  function smallGallery() {
+    if(window.innerWidth > 885){
+      //alert("lower than 885");
+      document.getElementById("project-content").style.display = "none";
+    }
+    else {
+      // alert("Bigger");
+      document.getElementById("project-content").style.display = "block";
+    }
+  }
+    
+  </script>
   <!-- <script>
     let slideIndex = 1;
     showSlides(slideIndex);
